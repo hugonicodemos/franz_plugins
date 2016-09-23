@@ -1,0 +1,23 @@
+{
+  "name": "evernote",
+  "version": "1.0.0",
+  "description": "Web Notebook",
+  "main": "index.js",
+  "author": "Hugo Nicodemos <hugonicodemos@gmail.com>",
+  "license": "Apache-2.0",
+  "config": {
+    "serviceURL": "https://www.evernote.com/Login.action",
+    "serviceName": "Evernote",
+    "message": "Remember Everything.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
