@@ -1,0 +1,23 @@
+{
+  "name": "kiwiIRC",
+  "version": "1.0.0",
+  "description": "Web IRC Client",
+  "main": "index.js",
+  "author": "Hugo Nicodemos <hugonicodemos@gmail.com>",
+  "license": "Apache-2.0",
+  "config": {
+    "serviceURL": "https://kiwiirc.com/client",
+    "serviceName": "kiwiIRC Client",
+    "message": "KiwiIRC makes Web IRC easy.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
